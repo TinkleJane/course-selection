@@ -1,0 +1,2 @@
+class TeacherRelationship < ApplicationRecord
+end
