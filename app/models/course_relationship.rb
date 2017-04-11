@@ -1,3 +1,4 @@
 class CourseRelationship < ApplicationRecord
-  has_many :courses
+  belongs_to :course
+  belongs_to :student
 end
